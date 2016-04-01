@@ -66,3 +66,7 @@ ul {
   color: #fff;
   flex-shrink: 0;
 }
+
+.account, .about {
+  flex-grow: 1;
+}
