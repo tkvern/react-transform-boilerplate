@@ -9,5 +9,5 @@ import './style/main.scss';
 import { Router, browserHistory } from 'react-router';
 import routes from './routes';
 
-render(<Router history={browserHistory}>{routes}</Router>, 
-  document.getElementById('root'));
+render(<Router history={browserHistory}>{routes}</Router>
+, document.getElementById('root'));
